@@ -1,12 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Loging = () => {
+const Login = () => {
   return (
-    <div>
-      <Link to='/login'>Login</Link>
+    <div className="login-container">
+      <h2>Welcome Back!</h2>
+      <p>Please login to continue.</p>
+      <Link to="/login" className="login-link">
+        Login
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Loging
+export default Login;
