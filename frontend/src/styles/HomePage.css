@@ -1,0 +1,33 @@
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .components-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Stilisierung für einzelne Komponenten */
+  .component {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #0d39db;
+    border-radius: 5px;
+    background-color: #6170bb;
+  }
+  
+  .component h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .component p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
