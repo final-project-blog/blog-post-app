@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { FaExclamationTriangle } from 'react-icons/fa';
 
 const NotFoundPage = () => {
-  const basePath = '/'; // Hier könntest du den Basispfad zentralisieren
+  const basePath = '/'; 
 
   return (
     <section className='text-center flex flex-col justify-center items-center h-96'>
